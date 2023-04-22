@@ -24,4 +24,4 @@ if response.status_code == 200:
         price = x['quote']['USD']['price']
         print(symbol, price)
 else:
-    print('Error al obtener los datos de CoinMarketCap. Código de estado HTTP:', response.status_code)
+    print('Error getting data from CoinMarketCap,Status Code HTTP:', response.status_code)
